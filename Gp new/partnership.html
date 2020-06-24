@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title> Sai Poojitha Associates</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Gp - v2.0.0
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    <style>
+        #steps {
+            width: 100%;
+            height: 110vh;
+            background: url("assets\\img\\partnership steps2.png") top center;
+            background-size: cover;
+            position: relative;
+            float: right;
+        }
+        #checklist {
+            width: 100%;
+            height: 110vh;
+            background: url("assets\\img\\partnership checklist.png") top center;
+            background-size: cover;
+            position: relative;
+            float: right;
+        }
+        #hero {
+            width: 100%;
+            height: 100vh;
+            background: url("https://i0.wp.com/honestproscons.com/wp-content/uploads/2020/02/SOLE-PROPREITORSHIP.jpg?resize=1024%2C512&ssl=1") top center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .new {
+            background: #EAE0F9;
+            /* background: url("https://www.bsmconsulting.com//Media//Default//Images//Blog//Compliance-Training-banner2.jpg"); */
+            background-repeat: no-repeat;
+            background-position: right top;
+            margin-right: 0px;
+            background-attachment: scroll;
+        }
+
+        .one {
+            background-color:smokewhite;
+            background-image: url("assets\\img\\partnership4.jpg");
+            background-repeat: no-repeat;  
+            background-position: right bottom;        
+            margin-right: 10px;
+            background-attachment: scroll;
+            background-size: auto;
+
+        }
+
+        .conta {
+
+            /* width: 100%; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 100px 0;
+
+        }
+
+        .timeline {
+            width: 80%;
+            height: auto;
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .timeline ul {
+            list-style: none;
+        }
+
+        .timeline ul li {
+            padding: 20px;
+            background-color: #EAE0F9;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .timeline ul li:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-content h1 {
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .timeline-content p {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 300;
+            color: darkblue;
+        }
+
+        .timeline-content .date {
+            color: chocolate;
+            font-size: 30px;
+            font-weight: 300;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            font-style: normal;
+            text-align: center;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .timeline:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 2px;
+                height: 100%;
+                background-color: gray;
+            }
+
+            .timeline ul li {
+                width: 50%;
+                position: relative;
+                margin-bottom: 50px;
+            }
+
+            .timeline ul li:nth-child(odd) {
+                float: left;
+                clear: right;
+                transform: translateX(-30px);
+                border-radius: 20px 0px 20px 20px;
+            }
+
+            .timeline ul li:nth-child(even) {
+                float: right;
+                clear: left;
+                transform: translateX(30px);
+                border-radius: 0px 20px 20px 20px;
+            }
+
+            .timeline ul li::before {
+                content: "";
+                position: absolute;
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                background-color: gray;
+                top: 0px;
+            }
+
+            .timeline ul li:nth-child(odd)::before {
+                transform: translate(50%, -50%);
+                right: -30px;
+            }
+
+            .timeline ul li:nth-child(even)::before {
+                transform: translate(-50%, -50%);
+                left: -30px;
+            }
+
+            .timeline-content .date {
+                position: absolute;
+                top: -30px;
+            }
+
+            .timeline ul li:hover::before {
+                background-color: #EAE0F9;
+            }
+        }
+
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 65%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+            margin-left: 250px;
+        }
+
+
+        .accordion:after {
+            content: '\002B';
+            color: #777;
+            font-weight: bold;
+            float: right;
+            /* margin-left: 5px; */
+            margin-left: 250px;
+        }
+
+        .active:after {
+            content: "\2212";
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: rgba(250, 235, 215, 0.712);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            margin-left: 250px;
+            width: 65%;
+        }
+
+        .faq {
+            background-color: lavender;
+        }
+        .section {
+            overflow: auto;
+           }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+
+      <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">SAI POOJITHA ASSOCIATES<span>.</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="drop-down"><a href="">BUSINESS REGISTRATION</a>
+            <ul>
+              <li class="drop-down"><a href="#">COMPANY REGISTRATION</a>
+                <ul>
+                  <li><a href="private limited compaby.html">PRIVATE LIMITED COMPANY REGISTRATION</a></li>
+                  <li><a href="#">LLP REGISTRATION</a></li>
+                  <li><a href="#">ONE PERSON COMPPANY REGISTRATION</a></li>
+                  
+                </ul>
+              </li>
+              <li class="drop-down"><a href="#">FIRM REGISTRATION</a>
+                <ul>
+                  <li><a href="proprietorship.html">PROPRIETORSHIP FIRM REGISTARTION</a></li>
+                  <li><a href="partnership.html">PARTNERSHIP FIRM REGISTRATION</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=+919614676869">
+                        Contact on whatsapp</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+
+    </div>
+  </header>
+  <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+       
+      </div>
+    </section>
+<!-- End Header -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                        <img src="assets\img\partnership timeline.jpg" class="img-fluid" alt="image">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right"
+                        data-aos-delay="100">
+                        <h3>PARTNERSHIP FIRM</h3>
+                        <br></br>
+                        <p>
+                            A partnership firm is a well-recognized business structure formed 
+                            with mutual consent of all the partners for a profitable purpose. 
+                            The firm is managed, owned and controlled by a set of people that 
+                            are known as partners with a formal agreement (know as partnership deed) 
+                            and registered under the partnership act, 1932 .
+                        </p>
+                        <p> 
+                            Partnership firms are distinguished as registered and non-registered firms. 
+                            Partnership firm registration is not mandatory to register but it is advisable 
+                            to do so. Partnership firm registration offers various benefits that do not 
+                            apply to the non-registered ones.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Advantages  -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="assets\img\partnership2.jpg" class="img-fluid" alt="image">
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="heading-section text-justify mt-5">
+                            <h3>ADVANTAGES</h3>
+                            <p>  <p>
+                            <ul class="list-icon list-icon-plus list-icon-colored">
+
+                                <li><strong>No Minimum Capital - </strong>
+                                     There are no restrictions as such with respect to the minimum capital 
+                                     requirement in case of partnership firm. The Partnership firm can be 
+                                     registered even with Rs. 10,000 as total capital.
+                                </li>
+                                <li><strong>Easy To Form - </strong>Partnership Firm is very easy to form. 
+                                It comes into existence merely by a Partnership Deed. Its registration is 
+                                not mandatory. Even after formation, there are no annual filings to be done 
+                                except Income tax returns.
+                                </li>
+                                <li><strong>Sharing Risks - </strong>On account of its very nature, Partnership 
+                                firm enables sharing of risks by more than 1 person as the profit and losses are 
+                                shared by all the partners. This ensures diversified financial risks.
+                                </li>
+                                <li><strong>Better Tax Planning - </strong>
+                                    Partnership firm is a legal tool for better tax planning. The partnership 
+                                    firm is a separate entity and its tax is calculated separately so it can 
+                                    offer remuneration and interest to working partners.
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Advantages -->
+        </section>
+        
+        <!-- Steps Section -->
+
+   <section id="steps" class="d-flex align-items-center justify-content-center">
+    <div class="container">
+    </section>
+    </div>
+        <!-- End ofSteps Section -->
+        <!-- End About Section -->
+        <!-- ======= Benifits Section ======= -->
+        <!-- <section id="features" class="features">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="image col-lg-6" style='background-image: url("assets/img/features.jpg");'
+                        data-aos="fade-right">
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="80">
+                        <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+                            <h3>Why Choose us ?</h3>
+                            <i class="bx bxl-dribbble"></i>
+                            <h4>Affordable</h4>
+                            <p>Here the price is Affordable</p>
+                        </div>
+                        <div class=" icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+                            <i class="bx bx-cube-alt"></i>
+                            <h4>Free Consultation</h4>
+                            <p>We offer free Consultation</p>
+                        </div>
+                        <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+                            <i class="bx bx-images"></i>
+                            <h4>Confidential and safe</h4>
+                            <p>All your private information is safe with us</p>
+                        </div>
+                        <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+                            <i class="bx bx-shield"></i>
+                            <h4>Beatae veritatis</h4>
+                            <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section> -->
+
+
+        <!-- End Features Section -->
+        <!-- Documents Sections-->
+      
+        
+        <!-- End of Documents Sections-->
+        <section id="checklist" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+        </section>
+        </div>
+
+        <!-- Procedure Sections-->
+        <div class="one">
+            <h1 style="color: chocolate; text-align: center;"> Process & Timeline for Starting Partnership Firm
+            </h1>
+            <div class="conta">
+
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="timeline-content">
+
+                                <h1 class="date">DAY-1</h1>
+                                <p>-Discussion and collection of basic Information</p>
+                                <p>Providing Required Documents for Partnership firm registration</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">DAY-2-4</h3>
+                                <p>- Drafting a Partnership Deed</p>
+                                <p>- Review and confirmation from Partners</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">DAY-5-7</h3>
+                                <p>- Payment of Stamp Duty on the agreement</p>
+                                <p>- Partnership Deed Notarisation</p>
+                                <p>- Application for allotment of PAN and TAN</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">DAY 8 Onwards</h3>                                
+                                <p>- Partnership Deed registration, if subscribed</p>
+                                <p>- Certificate of Registration from RoF*</p>
+                            </div>
+                        </li>                       
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- End of Procedure Sections-->
+
+        <!-- ======= Services Section ======= -->
+        <div class="new">
+
+            <section id="services" class="services">
+                <div class="container" data-aos="fade-up">
+
+                    <div class="section-title">
+                        <h1 style="text-align: center; color: chocolate;">
+                            Compliance
+                            Required By Proprietorship Firm</h1>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in"
+                            data-aos-delay="100">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                                <h4><a>GST Registration</a></h4>
+                                <p>Partnership firms in India requires GST registration. 
+                                GST Registration Process is 100% online and there is no requirement 
+                                of submission of physical documents to GST Department. GST registration 
+                                must be obtained within 30 days of business incorporation, otherwise, 
+                                the business will be subject to heavy penalties.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                            data-aos-delay="200">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-file"></i></div>
+                                <h4><a>GST Return</a></h4>
+                                <p>Under the Goods & Service Tax regime which apparently rolled out in 2017, 
+                                partnership firms having GST registration would be required to file GST returns. 
+                                GST Returns can be filed monthly, quarterly and annual GST returns. As filing of 
+                                GST returns is mandatory for all the registered Taxpayers including Partnership firms.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+                            data-aos-delay="300">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                                <h4><a>TDS Return</a></h4>
+                                <p>Quarterly TDS returns must be filed by partnership firms that have TAN 
+                                and are required to deduct tax at source as per TDS rules. A TDS Return 
+                                is a quarterly statement which has to be submitted to the IT Department 
+                                of India. It should contain all details of TDS deducted and deposited by 
+                                you for a particular quarter.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                            data-aos-delay="100">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-world"></i></div>
+                                <h4><a>Accounting</a></h4>
+                                <p>The accounting for a sole proprietorship does not require a separate set of
+                                    accounting records, since the owner is
+                                    considered to be inseparable from the business. Nonetheless, it is always
+                                    advisable
+                                    to maintain records for business
+                                    activities of a Proprietorship firm, in order to judge whether these operations
+                                    are
+                                    generating a profit.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                            data-aos-delay="200">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                                <h4><a>Tax audit</a></h4>
+                                <p>The Income Tax audit would be needed for a partnership firm if the total 
+                                sales turnover is more than Rs.1 crore during the financial year. In case of 
+                                a professional firm, the tax audit would be necessary if total gross receipts 
+                                exceed Rs.50 lakhs throughout the financial year under assessment.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                            data-aos-delay="300">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-arch"></i></div>
+                                <h4><a>Tax Audit</a></h4>
+                                <p>Income tax filing must be filed by all partnership firms. The income tax return 
+                                of a partnership firm that doesn’t need an audit is due on the 31st of July. 
+                                If the income tax return of a partnership firm is to be audited according 
+                                to the Income Tax Act, then the return would be unpaid on the 30th of September.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <!-- End Services Section -->
+
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+            <div class="container" data-aos="zoom-in">
+
+                <div class="text-center">
+                    <h3>Call To Action</h3>
+                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim
+                        id est
+                        laborum.</p>
+                    <a class="cta-btn" href="https://api.whatsapp.com/send?phone=+919614676869">whatsapp</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Cta Section -->
+        <!-- ======= FAQ Section ======= -->
+        <div class="faq">
+            <h1>Frequently Asked Questions</h1>
+            <br> </br>
+
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                            panel.style.maxHeight = null;
+                        } else {
+                            panel.style.maxHeight = panel.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
+            <br> </br>
+        </div>
+        <!-- ======= END OF FAQ Section ======= -->
+
+
+
+
+
+
+
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <h3>Sai Poojitha Associates<span>.</span></h3>
+                            <p>
+                                V'Do's Colony <br>
+                                Khammam<br><br>
+                                <strong>Phone:</strong> 9052096789<br>
+                                <strong>Email:</strong> Pujitha pulibandla13@gmail.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">GST</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Income Tax</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">startup</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
+                <h4>Our Newsletter</h4>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+    
+              </div> -->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- <div class="copyright">
+            &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
+          </div> -->
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+    <script src="scripts/index.js"></script>
+
+
+
+
+</body>
+
+</html>
